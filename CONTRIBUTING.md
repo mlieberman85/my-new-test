@@ -37,6 +37,33 @@ Please be respectful and constructive in all interactions. We are committed to p
 - Reference any related issues
 - All tests must pass
 - Code should follow existing style conventions
+- All commits must be signed off (DCO)
+
+## Developer Certificate of Origin (DCO)
+
+This project uses the [Developer Certificate of Origin](https://developercertificate.org/) (DCO) to ensure that contributors have the right to submit their contributions.
+
+By making a contribution to this project, you certify that:
+
+1. The contribution was created in whole or in part by you and you have the right to submit it under the open source license indicated in the file; or
+2. The contribution is based upon previous work that, to the best of your knowledge, is covered under an appropriate open source license and you have the right to submit that work with modifications; or
+3. The contribution was provided directly to you by some other person who certified (1) or (2) and you have not modified it.
+
+### How to Sign Off
+
+Add a sign-off line to your commit messages:
+
+```
+Signed-off-by: Your Name <your.email@example.com>
+```
+
+You can do this automatically by using the `-s` flag when committing:
+
+```bash
+git commit -s -m "Your commit message"
+```
+
+**All contributions must include this sign-off to be accepted.**
 
 ## Development Setup
 
